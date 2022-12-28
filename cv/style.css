@@ -1,3 +1,65 @@
-body{
-    background-color: #EFEFEF;
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #efefef;
+}
+
+.contenedor {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+}
+
+header {
+  width: 100%;
+  height: 15%;
+  background-color: #223238;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-left: 1rem;
+}
+
+h1 {
+  color: #fffbf5;
+}
+
+header p {
+  color: #ff7948;
+}
+main {
+  width: 100%;
+  height: 85%;
+  padding: 1rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+h3 {
+  color: #ff7948;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  padding: 0.3rem;
 }
